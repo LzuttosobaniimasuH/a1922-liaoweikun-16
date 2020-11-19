@@ -1,4 +1,4 @@
 test:test.c list2.c
-	gcc test.c list2.c -o test
+	gcc test.c -o test
 clean:
 	rm test
