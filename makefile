@@ -1,4 +1,2 @@
-test:test.c list2.c
-	gcc test.c -o test
-clean:
-	rm test
+testSort:sort.c testSort.c
+	gcc -g sort.c testSort.c -o test
